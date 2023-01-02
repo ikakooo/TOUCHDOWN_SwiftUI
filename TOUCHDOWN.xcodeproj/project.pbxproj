@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332EA3422962DE32008CCE3B /* NabigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EA3412962DE32008CCE3B /* NabigationBarView.swift */; };
+		332EA3442962E2AD008CCE3B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EA3432962E2AD008CCE3B /* LogoView.swift */; };
 		33581182296111C1008A4E86 /* TOUCHDOWNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33581181296111C1008A4E86 /* TOUCHDOWNApp.swift */; };
 		33581184296111C1008A4E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33581183296111C1008A4E86 /* ContentView.swift */; };
 		33581186296111C2008A4E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33581185296111C2008A4E86 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332EA3412962DE32008CCE3B /* NabigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NabigationBarView.swift; sourceTree = "<group>"; };
+		332EA3432962E2AD008CCE3B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		3358117E296111C1008A4E86 /* TOUCHDOWN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOUCHDOWN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33581181296111C1008A4E86 /* TOUCHDOWNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOUCHDOWNApp.swift; sourceTree = "<group>"; };
 		33581183296111C1008A4E86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				3368D6832961AD92009C9CA8 /* FooterView.swift */,
+				332EA3412962DE32008CCE3B /* NabigationBarView.swift */,
+				332EA3432962E2AD008CCE3B /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -346,6 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33581184296111C1008A4E86 /* ContentView.swift in Sources */,
+				332EA3442962E2AD008CCE3B /* LogoView.swift in Sources */,
+				332EA3422962DE32008CCE3B /* NabigationBarView.swift in Sources */,
 				3368D6842961AD92009C9CA8 /* FooterView.swift in Sources */,
 				33581182296111C1008A4E86 /* TOUCHDOWNApp.swift in Sources */,
 				3368D6822961AC7B009C9CA8 /* Constant.swift in Sources */,

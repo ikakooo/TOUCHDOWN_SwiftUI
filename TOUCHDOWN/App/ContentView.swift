@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-      FooterView()
-            .padding(.horizontal)
+        ZStack {
+            VStack(spacing: 0) {
+                NabigationBarView()
+                    .padding(.horizontal, 15)
+                    .padding(.bottom)
+                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                
+                Spacer()
+                
+                FooterView()
+                    .padding(.horizontal)
+            } //: VSTACK
+            .background(colorBackground.ignoresSafeArea(.all, edges: .all))
+        } //: ZSTACK
+        .ignoresSafeArea(.all, edges: .top)
     }
 }
 

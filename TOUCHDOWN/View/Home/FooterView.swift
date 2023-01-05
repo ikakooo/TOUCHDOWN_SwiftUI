@@ -12,7 +12,7 @@ struct FooterView: View {
      // MARK: - BODY
     var body: some View {
         VStack {
-            Text("Hello, World! Hello, World! Hello, World! Hello, World!Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World!")
+            Text("We offer the most cutting edge, comfortable, lightweight and durable football helmets in the market at affordable prices.")
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
                 .layoutPriority(2)
@@ -22,7 +22,7 @@ struct FooterView: View {
                 .foregroundColor(.gray)
                 .layoutPriority(0)
             
-            Text("Copyright c IKAKOOO \n All right reserved")
+            Text("Copyright Ⓒ IKAKOOO \n All right reserved")
                 .font(.footnote)
                 .fontWeight(.bold)
                 .foregroundColor(.gray)

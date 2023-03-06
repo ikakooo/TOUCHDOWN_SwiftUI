@@ -45,10 +45,19 @@
 		33ED68472966B38E0057A439 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED68462966B38E0057A439 /* CategoryGridView.swift */; };
 		33ED68492966B9EE0057A439 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED68482966B9EE0057A439 /* SectionView.swift */; };
 		AC9B33E729B6824200485B25 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = AC9B33E629B6824200485B25 /* Resolver */; };
+		AC9B33EF29B6883B00485B25 /* TOUCHDOWNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B33EE29B6883B00485B25 /* TOUCHDOWNUITests.swift */; };
+		AC9B33F129B6883B00485B25 /* TOUCHDOWNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B33F029B6883B00485B25 /* TOUCHDOWNUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3358118F296111C3008A4E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33581176296111C0008A4E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3358117D296111C1008A4E86;
+			remoteInfo = TOUCHDOWN;
+		};
+		AC9B33F229B6883B00485B25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 33581176296111C0008A4E86 /* Project object */;
 			proxyType = 1;
@@ -98,6 +107,9 @@
 		33ED68442966B0040057A439 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		33ED68462966B38E0057A439 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		33ED68482966B9EE0057A439 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		AC9B33EC29B6883A00485B25 /* TOUCHDOWNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOUCHDOWNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9B33EE29B6883B00485B25 /* TOUCHDOWNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOUCHDOWNUITests.swift; sourceTree = "<group>"; };
+		AC9B33F029B6883B00485B25 /* TOUCHDOWNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOUCHDOWNUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC9B33E929B6883A00485B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,6 +143,7 @@
 			children = (
 				33581180296111C1008A4E86 /* TOUCHDOWN */,
 				33581191296111C3008A4E86 /* TOUCHDOWNTests */,
+				AC9B33ED29B6883B00485B25 /* TOUCHDOWNUITests */,
 				3358117F296111C1008A4E86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +153,7 @@
 			children = (
 				3358117E296111C1008A4E86 /* TOUCHDOWN.app */,
 				3358118E296111C3008A4E86 /* TOUCHDOWNTests.xctest */,
+				AC9B33EC29B6883A00485B25 /* TOUCHDOWNUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,6 +282,15 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		AC9B33ED29B6883B00485B25 /* TOUCHDOWNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B33EE29B6883B00485B25 /* TOUCHDOWNUITests.swift */,
+				AC9B33F029B6883B00485B25 /* TOUCHDOWNUITestsLaunchTests.swift */,
+			);
+			path = TOUCHDOWNUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -302,6 +332,24 @@
 			productReference = 3358118E296111C3008A4E86 /* TOUCHDOWNTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AC9B33EB29B6883A00485B25 /* TOUCHDOWNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9B33F429B6883B00485B25 /* Build configuration list for PBXNativeTarget "TOUCHDOWNUITests" */;
+			buildPhases = (
+				AC9B33E829B6883A00485B25 /* Sources */,
+				AC9B33E929B6883A00485B25 /* Frameworks */,
+				AC9B33EA29B6883A00485B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9B33F329B6883B00485B25 /* PBXTargetDependency */,
+			);
+			name = TOUCHDOWNUITests;
+			productName = TOUCHDOWNUITests;
+			productReference = AC9B33EC29B6883A00485B25 /* TOUCHDOWNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -316,6 +364,10 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					3358118D296111C3008A4E86 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3358117D296111C1008A4E86;
+					};
+					AC9B33EB29B6883A00485B25 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 3358117D296111C1008A4E86;
 					};
@@ -339,6 +391,7 @@
 			targets = (
 				3358117D296111C1008A4E86 /* TOUCHDOWN */,
 				3358118D296111C3008A4E86 /* TOUCHDOWNTests */,
+				AC9B33EB29B6883A00485B25 /* TOUCHDOWNUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -358,6 +411,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3358118C296111C3008A4E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9B33EA29B6883A00485B25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,6 +472,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC9B33E829B6883A00485B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9B33F129B6883B00485B25 /* TOUCHDOWNUITestsLaunchTests.swift in Sources */,
+				AC9B33EF29B6883B00485B25 /* TOUCHDOWNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -419,6 +488,11 @@
 			isa = PBXTargetDependency;
 			target = 3358117D296111C1008A4E86 /* TOUCHDOWN */;
 			targetProxy = 3358118F296111C3008A4E86 /* PBXContainerItemProxy */;
+		};
+		AC9B33F329B6883B00485B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3358117D296111C1008A4E86 /* TOUCHDOWN */;
+			targetProxy = AC9B33F229B6883B00485B25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -633,6 +707,38 @@
 			};
 			name = Release;
 		};
+		AC9B33F529B6883B00485B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lavapi.TOUCHDOWNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOUCHDOWN;
+			};
+			name = Debug;
+		};
+		AC9B33F629B6883B00485B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lavapi.TOUCHDOWNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOUCHDOWN;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -659,6 +765,15 @@
 			buildConfigurations = (
 				335811A6296111C3008A4E86 /* Debug */,
 				335811A7296111C3008A4E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9B33F429B6883B00485B25 /* Build configuration list for PBXNativeTarget "TOUCHDOWNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9B33F529B6883B00485B25 /* Debug */,
+				AC9B33F629B6883B00485B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
